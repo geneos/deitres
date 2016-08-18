@@ -9,6 +9,7 @@
  *
  * @ingroup views_templates
  */
+die('Die'); /*?>
 $columns = isset($view->style_plugin->options['columns']) ? $view->style_plugin->options['columns'] : 3;
 global $projects_categories;
 $class = isset($column_classes[0][0]) ? $column_classes[0][0] : '';
@@ -29,3 +30,4 @@ $class = isset($column_classes[0][0]) ? $column_classes[0][0] : '';
     <?php endforeach; ?>
   <?php endforeach; ?>
 </ul>
+*/?>

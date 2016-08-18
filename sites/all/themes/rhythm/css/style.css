@@ -350,8 +350,8 @@ img:not([draggable]), embed, object, video{
    ============================== */
 
 body{
-	color: #111;
-	font-size: 14px;
+	color: #5B595B;
+	font-size: 18px;
 	font-family: "Open Sans", arial, sans-serif;
 	line-height: 1.6;	
 	-webkit-font-smoothing: antialiased;
@@ -367,7 +367,7 @@ a:hover{
 }
 
 h1,h2,h3,h4,h5,h6{
-    margin-bottom: 1.3em;
+  margin-bottom: 0.3em;
 	line-height: 1.4;
 	font-weight: 400;
 }
@@ -6406,6 +6406,11 @@ section:hover .small-item-carousel .owl-next{
    Modificaciones para deitres
    ============================== */
 
+.creando .features-icon span {
+	background-color: #fff;
+}
+
+
 .views-view-grid  img {
 	 padding-top: 0px;
 	-webkit-border-radius: 10px;
@@ -6420,8 +6425,6 @@ section:hover .small-item-carousel .owl-next{
 .post-prev-img img {
 	border-radius: 10px;
 }
-
- 
 
 .page-node-119 .nd-region:first-child {
 	padding-bottom:0px !important;
@@ -6472,7 +6475,6 @@ h1 {
     color: #fff;
     text-transform: uppercase;
  }
-
  
 .view-gallery .col-md-4 .field-content a {
     display: inline-block;
