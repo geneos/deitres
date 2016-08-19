@@ -441,7 +441,7 @@ hr.black{
 .font-alt{
 /*    font-family: Dosis, arial, sans-serif; */
     font-family: Open Sans, arial, sans-serif;
-    text-transform: uppercase;
+/*    text-transform: uppercase; */
     letter-spacing: 0.2em;
 }
 .serif{
