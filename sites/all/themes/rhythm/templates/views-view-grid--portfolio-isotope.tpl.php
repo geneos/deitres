@@ -12,6 +12,7 @@
 
 $columns = isset($view->style_plugin->options['columns']) ? $view->style_plugin->options['columns'] : 3;
 global $projects_categories;
+
 $class = isset($column_classes[0][0]) ? $column_classes[0][0] : '';
 ?>
 <?php if(count($view->result) > 0 && !empty($projects_categories)): ?>

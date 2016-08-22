@@ -32,6 +32,16 @@ if(isset($row->field_field_portfolio_category) && !empty($row->field_field_portf
     $categories[] = $category_id;
   }
 }
+
+if ($view->name == 'portfolio_productos' && isset($row->field_field_product_category) && !empty($row->field_field_product_category) ) {
+  foreach($row->field_field_product_category as $taxonomy) {
+    $category = $taxonomy['raw']['taxonomy_term']->name;
+    $category_id = $view->vid . '-' . $taxonomy['raw']['taxonomy_term']->tid;
+    $projects_categories[$category_id] = $category;
+    $categories[] = $category_id;
+  }
+}
+
 $image = _get_node_field($row, 'field_field_images');
 $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
 $href = _views_field($fields, 'path');
@@ -50,10 +60,15 @@ else {
   $text = t('Lightbox');
 }*/
 ?>
+
 <li class="work-item mix <?php print implode(' ', $categories); ?>">
   <a href="<?php print $href; ?>" class="<?php print $class; ?>">
     <div class="work-img">
-      <?php print _views_field($fields, 'field_images'); ?>
+      <?php if ( $view->name == 'portfolio_productos'){ ?>
+        
+      <?php print _views_field($fields, 'field_image_product'); ?>
+      <?php }else { ?>
+        <?php print _views_field($fields, 'field_images'); }?>
     </div>
     <div class="work-intro">
       <h3 class="work-title"><?php print _views_field($fields, 'title'); ?></h3>
@@ -64,3 +79,4 @@ else {
     </div>
   </a>
 </li>
+  }?>
