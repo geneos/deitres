@@ -351,7 +351,7 @@ img:not([draggable]), embed, object, video{
 
 body{
 	color: #5B595B;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: "Open Sans", arial, sans-serif;
 	line-height: 1.6;	
 	-webkit-font-smoothing: antialiased;
@@ -2717,7 +2717,7 @@ a.logo:hover{
 	background: #111;
 }
 .section-text{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 300;
 	color: #777;
 	line-height: 1.7;
