@@ -351,7 +351,7 @@ img:not([draggable]), embed, object, video{
 
 body{
 	color: #5B595B;
-	font-size: 20px;
+	font-size: 20  px;
 	font-family: "Open Sans", arial, sans-serif;
 	line-height: 1.6;	
 	-webkit-font-smoothing: antialiased;
@@ -397,7 +397,7 @@ blockquote{
 	background: none;
     font-style: normal;
 	line-height: 1.7;
-	color: #777;
+	color: #5B595B;
 }
 blockquote p{
 	margin-bottom: 1em;
@@ -2907,7 +2907,7 @@ a.logo:hover{
 .alt-services-title{
 	margin: 0 0 10px 0;
 	padding: 0;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 400;
 	color: #111;
 }
@@ -6431,7 +6431,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 44px;
 }
 /*
 #galeria-prod-serv td {
@@ -6484,4 +6484,12 @@ h1 {
 
 .view-gallery .col-md-4 .field-content:hover { 
    transform: scale(1.1); 
+}
+
+.grow {  }
+
+.grow img:hover { transform: scale(1.1); }
+
+.grow img {
+  transition: all .2s ease-in-out;
 }
