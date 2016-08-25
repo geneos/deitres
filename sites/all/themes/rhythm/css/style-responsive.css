@@ -1,4 +1,4 @@
-@charset "utf-8";
+    @charset "utf-8";
 /*------------------------------------------------------------------
 [Responsive Stylesheet]
 
@@ -85,7 +85,7 @@ Primary use:    MultiPurpose Template
         letter-spacing: 0.2em;
     }
     .tpl-alt-tabs > li{
-        width: 170px;
+        width: 150px;
     }
     
 }

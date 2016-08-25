@@ -1927,7 +1927,10 @@ a.logo:hover{
  */
 
 .main-nav.transparent{
-    background: transparent !important;
+    /*background: transparent !important;*/
+      background: rgba(91, 89, 91, .5) !important;
+    
+
 }
 .main-nav.js-transparent{
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
@@ -4089,8 +4092,9 @@ a.logo:hover{
 
 .footer{
     text-align: center;
-    font-size: 12px;   
+    font-size: 12px;  
 }
+
 .footer a{
     color: #888;
     text-decoration: none;
@@ -4114,7 +4118,6 @@ a.logo:hover{
     font-size: 11px;
     color: #999;
 }
-
 
 .footer-social-links{
     font-size: 14px;
@@ -4188,6 +4191,7 @@ a.link-to-top{
 }
 
 
+ 
 /* ==============================
    Blog
    ============================== */
@@ -5139,12 +5143,12 @@ section:hover .small-item-carousel .owl-next{
 	border: none;
 }
 .tpl-alt-tabs > li{
-    width: 215px;
+    width: 180px;
     display: inline-block;
     vertical-align: top;
     float: none;    
-	padding: 0;    
-	background: none !important;
+	  padding: 0;    
+	  background: none !important;
     
 }
 .tpl-alt-tabs > li > a{
@@ -6403,11 +6407,23 @@ section:hover .small-item-carousel .owl-next{
 }
 
 /* ==============================
-   Modificaciones para deitres
+   Modificaciones para Deitres
    ============================== */
 
-.creando .features-icon span {
+.tabs-services .alt-tabs-icon span {
 	background-color: #fff;
+}
+
+.tabs-services .tpl-alt-tabs-cont {
+  padding-top: 0px;
+}
+
+.tabs-tools .tpl-tabs > li  {
+  width:20%;
+}
+
+.tabs-tools .tpl-tabs > li > a {
+  height:134px;
 }
 
 
@@ -6486,10 +6502,31 @@ h1 {
    transform: scale(1.1); 
 }
 
-.grow {  }
-
 .grow img:hover { transform: scale(1.1); }
 
 .grow img {
   transition: all .2s ease-in-out;
+}
+
+
+.portfolio-home .works-filter {
+  display: none;
+} 
+
+
+.section-skills {
+  font-size: 14px;
+}
+
+.tabs-tools.benefit-item   {
+  width: 215px;
+}
+
+.nd-region {
+  padding-bottom: 0px !important;
+  }
+
+.page-section {
+  margin-top: 0px !important; 
+  margin-bottom: 0px !important; 
 }
