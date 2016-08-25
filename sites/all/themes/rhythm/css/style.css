@@ -4009,7 +4009,7 @@ a.logo:hover{
     background: rgba(17,17,17, .90);
 }
 .map-toggle{
-    width: 200px;
+    width: 188px;
     height: 100px;
     position: absolute;
     top: 50%;
@@ -4058,7 +4058,7 @@ a.logo:hover{
     position: relative;
 }
 .mt-text{
-    margin-left: 12px;
+    margin-left: 0px;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -4130,7 +4130,7 @@ a.logo:hover{
     margin: 0 6px;
     text-align: center;
     display: inline-block;
-    color: #111;
+    color: #fff;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
@@ -4152,7 +4152,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid #111;
+    border: 1px solid #fff;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4172,10 +4172,10 @@ a.logo:hover{
     
 }
 .footer-social-links a:hover{
-    color: #fff;
+    color: #5B595B;
 }
 .footer-social-links a:hover:before{
-    background: #111;
+    background: #fff;
 }
 
 a.link-to-top{
@@ -6412,6 +6412,13 @@ section:hover .small-item-carousel .owl-next{
 
 .tabs-services .alt-tabs-icon span {
 	background-color: #fff;
+  font-weight: 400;
+  font-size: 55px;
+}
+
+.tabs-tools .alt-tabs-icon span {
+  font-weight: 400;
+  font-size: 55px;
 }
 
 .tabs-services .tpl-alt-tabs-cont {
@@ -6508,6 +6515,11 @@ h1 {
   transition: all .2s ease-in-out;
 }
 
+.benefit-item:hover { transform: scale(1.2); }
+
+.benefit-item {
+  transition: all .2s ease-in-out;
+}
 
 .portfolio-home .works-filter {
   display: none;
@@ -6518,7 +6530,7 @@ h1 {
   font-size: 14px;
 }
 
-.tabs-tools.benefit-item   {
+.tab-pane .benefit-item   {
   width: 215px;
 }
 
@@ -6530,3 +6542,4 @@ h1 {
   margin-top: 0px !important; 
   margin-bottom: 0px !important; 
 }
+
