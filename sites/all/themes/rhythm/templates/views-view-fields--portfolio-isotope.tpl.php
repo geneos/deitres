@@ -48,6 +48,7 @@ $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
 $href = _views_field($fields, 'path');
 $class = 'work-ext-link';
 $text = t('View Project');
+$ptext = t('View Product');
 /*
 $project_link = _get_node_field($row, 'field_field_project_link');
 if(!empty($project_link)) {
@@ -74,7 +75,7 @@ else {
     <div class="work-intro">
       <h3 class="work-title"><?php print _views_field($fields, 'title'); ?></h3>
       <div class="work-descr">
-        <?php print $text; ?>
+        <?php print $ptext; ?>
       </div>
       <?php _print_views_fields($fields); ?>
     </div>
