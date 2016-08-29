@@ -121,8 +121,8 @@ Primary use:    MultiPurpose Template
     }
     
     .benefit-item {
-        width: 300px;
-        padding: 15px 32px;
+        width: 500px;
+        padding: 15px 15px;
     }
     .split-section-headings {
         width: 30%;
