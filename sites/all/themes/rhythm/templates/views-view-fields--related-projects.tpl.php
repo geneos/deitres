@@ -26,15 +26,17 @@ $image = _get_node_field($row, 'field_field_images');
 $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
 $project_link = _get_node_field($row, 'field_field_project_link');
 $node_href = _views_field($fields, 'path'); // Not used
+
 if(!empty($project_link)) {
   $class = 'work-ext-link';
-  $href = url($project_link[0]['raw']['url']);
+  //$href = url($project_link[0]['raw']['url']);
   $text = t('External Page');
 }
 else {
-  $class = 'work-lightbox-link mfp-image';
-  $href = file_create_url($path);
-  $text = t('Lightbox');
+  $class = 'work-ext-link mfp-image';
+  //cfile_create_url($path);
+  $href = $node_href;
+  $text = t('View Project');
 }
 ?>
 <a href="<?php print $href; ?>" class="<?php print $class; ?>">

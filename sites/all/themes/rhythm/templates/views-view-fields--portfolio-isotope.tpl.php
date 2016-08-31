@@ -47,8 +47,7 @@ $image = _get_node_field($row, 'field_field_images');
 $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
 $href = _views_field($fields, 'path');
 $class = 'work-ext-link';
-$text = t('View Project');
-$ptext = t('View Product');
+
 /*
 $project_link = _get_node_field($row, 'field_field_project_link');
 if(!empty($project_link)) {
@@ -66,16 +65,18 @@ else {
 <li class="work-item mix <?php print implode(' ', $categories); ?>">
   <a href="<?php print $href; ?>" class="<?php print $class; ?>">
     <div class="work-img">
-      <?php if ( $view->name == 'portfolio_productos'){ ?>
-        
-      <?php print _views_field($fields, 'field_image_product'); ?>
-      <?php }else { ?>
-        <?php print _views_field($fields, 'field_images'); }?>
+      <?php 
+      if ( $view->name == 'portfolio_productos'){ 
+        print _views_field($fields, 'field_image_product'); 
+        $text = t('View Product');
+      }else {
+        $text = t('View Project');
+        print _views_field($fields, 'field_images'); }?>
     </div>
     <div class="work-intro">
       <h3 class="work-title"><?php print _views_field($fields, 'title'); ?></h3>
       <div class="work-descr">
-        <?php print $ptext; ?>
+        <?php print $text; ?>
       </div>
       <?php _print_views_fields($fields); ?>
     </div>
