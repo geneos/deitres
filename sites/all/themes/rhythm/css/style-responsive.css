@@ -31,6 +31,10 @@ Primary use:    MultiPurpose Template
     .inner-nav ul li {
         margin-left: 25px;
     }
+    .timeline {
+    	width: 970px;
+    } 
+
 	
 }  
 
@@ -76,6 +80,9 @@ Primary use:    MultiPurpose Template
     .mod-breadcrumbs-mini{
         text-align: right;
     }
+    .timeline {
+    	width: 800px;
+    }  
     
 }
 @media only screen and (max-width: 1199px) {
@@ -87,6 +94,9 @@ Primary use:    MultiPurpose Template
     .tpl-alt-tabs > li{
         width: 150px;
     }
+    .timeline {
+    	width: 800px;
+    }   
     
 }
 
@@ -245,6 +255,10 @@ Primary use:    MultiPurpose Template
     }
     .countdown-number > b{
         bottom: 18px;
+    }
+
+    .timeline {
+    	display: none;
     }   
 	
 }
@@ -348,7 +362,9 @@ Primary use:    MultiPurpose Template
         top: 17px;
         right: 17px;
     }
-
+	.timeline {
+    	display: none;
+    }   
 }
 
 @media only screen and (max-width: 767px) {
@@ -576,6 +592,9 @@ Primary use:    MultiPurpose Template
         font-size: 110%;
         line-height: 1.2;
     }
+    .timeline {
+    	display: none;
+    }   
 }
 
 
@@ -811,6 +830,9 @@ Primary use:    MultiPurpose Template
     .fm-menu-links a{
         font-size: 14px;
     }
+    .timeline {
+    	display: none;
+    }   
 }
 
 
@@ -823,6 +845,9 @@ Primary use:    MultiPurpose Template
   	.nav-social-links{
   		display: none;
   	}
+  	.timeline {
+    	display: none;
+    }   
 }
 
 
