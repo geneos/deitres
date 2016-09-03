@@ -10,6 +10,7 @@
  * @ingroup views_templates
  */
 // Match Column numbers to Bootsrap class
+
 $columns_classes = array(1 => 12, 2 => 6, 3 => 4, 4 => 3, 6 => 2, 12 => 1);
 $bootsrap_class = isset($columns_classes[$view->style_plugin->options['columns']]) ? $columns_classes[$view->style_plugin->options['columns']] : 3;
 ?>

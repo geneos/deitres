@@ -44,7 +44,7 @@ if ($view->name == 'portfolio_productos' && isset($row->field_field_product_cate
 
 $image = _get_node_field($row, 'field_field_images');
 $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
-$href = _views_field($fields, 'path');
+//$href = _views_field($fields, 'path');
 $class = 'work-ext-link';
 $text = t('View Project');
 /*
@@ -59,6 +59,7 @@ else {
   $href = file_create_url($path);
   $text = t('Lightbox');
 }*/
+
 ?>
 
 <li class="work-item mix <?php print implode(' ', $categories); ?>">

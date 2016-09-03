@@ -35,7 +35,6 @@ Primary use:    MultiPurpose Template
     	width: 970px;
     } 
 
-	
 }  
 
 @media only screen and (max-width: 1200px) {
@@ -83,6 +82,7 @@ Primary use:    MultiPurpose Template
     .timeline {
     	width: 800px;
     }  
+  
     
 }
 @media only screen and (max-width: 1199px) {
@@ -96,7 +96,8 @@ Primary use:    MultiPurpose Template
     }
     .timeline {
     	width: 800px;
-    }   
+    }
+    
     
 }
 
@@ -160,8 +161,9 @@ Primary use:    MultiPurpose Template
     .section-bot-image {
         margin: 120px 0 -120px;
     }
-	
-    
+	.text-block {
+		padding: 0;
+	} 
     .lp-item {
         width: 50%;
     }

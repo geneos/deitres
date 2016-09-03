@@ -60,6 +60,7 @@ else {
   $href = file_create_url($path);
   $text = t('Lightbox');
 }*/
+
 ?>
 
 <li class="work-item mix <?php print implode(' ', $categories); ?>">
