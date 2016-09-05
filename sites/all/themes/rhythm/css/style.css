@@ -6410,6 +6410,11 @@ section:hover .small-item-carousel .owl-next{
    Modificaciones para Deitres
    ============================== */
 
+.local-scroll {
+  margin-top: 100px;
+}
+
+
 .tabs-services .alt-tabs-icon span {
 	background-color: #fff;
   font-weight: 400;
