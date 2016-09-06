@@ -2875,8 +2875,8 @@ a.logo:hover{
 	padding-left: 55px;
 	padding-top: 3px;
 	font-size: 13px;
-    font-weight: 300;
-	color: #999;
+  font-weight: 300;
+	color: #5B595B;
     
     -webkit-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -moz-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -5206,7 +5206,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .success{
 	border-color: #a9e2c2;
-	color: #36a367;
+	color: #5B595B;
 }
 .info{
 	border-color: #9ecdfc;
@@ -6411,7 +6411,9 @@ section:hover .small-item-carousel .owl-next{
    ============================== */
 
 
-
+#footer {
+  padding-top: 60px !important;
+}
 .tabs-services .alt-tabs-icon span {
 	background-color: #fff;
   font-weight: 400;
