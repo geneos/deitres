@@ -1044,8 +1044,9 @@ function init_map(){
                 marker: {
                     address: gmMarkerAddress,
                     options: {
-                        icon: Drupal.settings.base_path + Drupal.settings.theme_path + "/images/map-marker.png"
-                    }
+                        icon: Drupal.settings.base_path + Drupal.settings.theme_path + "/images/map-marker.png",
+                        title:"San Luis 4580 5° of 1 - Mar del Plata - Argentina"
+                   }
                 },
                 map: {
                     options: {

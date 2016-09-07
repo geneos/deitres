@@ -302,9 +302,18 @@ Primary use:    MultiPurpose Template
     }
     
 	
-    .tpl-minimal-tabs > li {
-        padding: 0 5px;
+ 	.tpl-minimal-tabs > li {
+        padding: 0;
     }
+    .tpl-minimal-tabs > li > a {
+        padding: 6px 10px 5px;
+    }
+    .tpl-alt-tabs{
+        font-size: 12px;
+        letter-spacing: 0.1em;
+    }
+    .tpl-alt-tabs > li{
+        width: 120px;
 	
 		
 	.benefit-item{
@@ -590,6 +599,7 @@ Primary use:    MultiPurpose Template
         font-size: 9px;
         color: rgba(255,255,255, .85);
     } 
+    
     .text-mobile {
         font-size: 110%;
         line-height: 1.2;
