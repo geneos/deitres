@@ -1296,10 +1296,9 @@ a.btn-mod:focus{
 .hs-line-11{
     margin-top: 0;
     position: relative;
-	  font-size: 30px;
+	  font-size: 44px;
     font-weight: 400;
-	  text-transform: uppercase;
-	  letter-spacing: 0.1em;
+	  letter-spacing: 0;
     line-height: 1.8;
     opacity: .9;
 }
@@ -6551,3 +6550,11 @@ h1 {
 .node-nd-portfolio .alt-service-item {
     margin: 10px 0 0;
 }
+
+.versiones .alt-service-icon {
+    font-size: 20px;
+    height: 20px;
+    line-height: 30px;
+    text-align: right;
+  }
+

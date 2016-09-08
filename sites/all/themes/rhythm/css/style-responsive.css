@@ -34,7 +34,15 @@ Primary use:    MultiPurpose Template
     .timeline {
     	width: 970px;
     } 
-
+    .column-service {
+    	padding-right: 85px;
+    }
+    .col-service-left {
+    	padding-right: 85px;
+    }
+    .col-service-right {
+    	padding-right: 0;
+    }
 }  
 
 @media only screen and (max-width: 1200px) {
@@ -302,18 +310,9 @@ Primary use:    MultiPurpose Template
     }
     
 	
- 	.tpl-minimal-tabs > li {
-        padding: 0;
+    .tpl-minimal-tabs > li {
+        padding: 0 5px;
     }
-    .tpl-minimal-tabs > li > a {
-        padding: 6px 10px 5px;
-    }
-    .tpl-alt-tabs{
-        font-size: 12px;
-        letter-spacing: 0.1em;
-    }
-    .tpl-alt-tabs > li{
-        width: 120px;
 	
 		
 	.benefit-item{
@@ -852,6 +851,18 @@ Primary use:    MultiPurpose Template
     font-size: 26px;
 	}
 
+    .column-service {
+    	padding-right: 15px;
+    }
+
+    .col-service-left {
+    	padding-right: 15px;
+    }
+
+    .col-service-right {
+    	padding-right: 15px;
+    	margin-top: 30px;
+    }
 }
 
 
