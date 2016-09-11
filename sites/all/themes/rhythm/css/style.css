@@ -1296,7 +1296,7 @@ a.btn-mod:focus{
 .hs-line-11{
     margin-top: 0;
     position: relative;
-	  font-size: 36px;
+	  font-size: 40px;
     font-weight: 400;
 	  letter-spacing: 0.1  ;
     line-height: 1.8;
@@ -6558,9 +6558,6 @@ h1 {
     text-align: right;
   }
 
-/* oculta los titulos de producto y servicios*/
-.hide-me {
-  display: none;
-}
-
- 
+ .view-related-products {
+  text-align: center;
+ }

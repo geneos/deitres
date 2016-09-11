@@ -38,11 +38,9 @@ Primary use:    MultiPurpose Template
     	padding-right: 85px;
     }
     .col-service-left {
-    	padding-right: 85px;
+    	padding-right: 15px;
     }
-    .col-service-right {
-    	padding-right: 0;
-    }
+
 }  
 
 @media only screen and (max-width: 1200px) {
@@ -271,6 +269,13 @@ Primary use:    MultiPurpose Template
     	display: none;
     }   
 	
+	 .column-service {
+    	padding-right: 15px;
+    }
+
+    .col-service-left {
+    	padding-right: 15px;
+    }
 }
   
   
@@ -861,7 +866,6 @@ Primary use:    MultiPurpose Template
 
     .col-service-right {
     	padding-right: 15px;
-    	margin-top: 30px;
     }
 }
 
