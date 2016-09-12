@@ -997,9 +997,9 @@ a.btn-mod:focus{
 	width: 100%;
 	display: block;	
 	position: relative;
-    overflow: hidden;
+  overflow: hidden;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2349,10 +2349,10 @@ a.logo:hover{
  	width: 100%; 
 	display: block;	
 	position: relative;
-    overflow: hidden;
-/*    background-attachment: fixed; */
+  overflow: hidden;
   background-repeat: no-repeat;
-	background-position: center center;
+	background-attachment: fixed; 
+  background-position: center center;
     
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
