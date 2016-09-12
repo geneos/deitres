@@ -2350,8 +2350,8 @@ a.logo:hover{
 	display: block;	
 	position: relative;
     overflow: hidden;
-    background-attachment: fixed;
-	background-repeat: no-repeat;
+/*    background-attachment: fixed; */
+  background-repeat: no-repeat;
 	background-position: center center;
     
 	-webkit-background-size: cover;
@@ -3390,17 +3390,17 @@ a.logo:hover{
 .work-title{
 	margin: 0 0 8px 0;
 	padding: 0;
-	font-size: 13px;
+	font-size: 23px;
     font-weight: 400;
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	line-height: 1.2;
 }
 .work-descr{	
 	font-size: 11px;
 	text-align: center;
     text-transform: uppercase;
-	color: #aaa;
+	color: #5B595B;
 	line-height: 1.2;
 }
 .works-grid.hide-titles .work-item > a{
@@ -3477,7 +3477,7 @@ a.logo:hover{
 .works-grid.hover-white .work-item:hover .work-intro,
 .works-grid.hover-white .work-item:hover .work-title,
 .works-grid.hover-white .work-item:hover .work-descr{
-	color: #000;
+	color: #5B595B;
 }
 .works-grid.hover-white .work-item:hover .work-img:after{	
 	background: rgba(250,250,250, .9);
