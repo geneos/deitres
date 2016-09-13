@@ -17,7 +17,7 @@ $class = isset($column_classes[0][0]) ? $column_classes[0][0] : '';
 ?>
 <?php if(count($view->result) > 0 && !empty($projects_categories)): ?>
   <div class="works-filter font-alt align-center">
-    <a href="#" class="filter active" data-filter="*"><?php print t('All works'); ?></a>
+    <a href="#" class="filter active" data-filter="*"><?php print t('All projects'); ?></a>
     <?php  foreach($projects_categories as $id => $category): ?>
       <a href="#" class="filter" data-filter=".<?php print $id; ?>"><?php print $category; ?></a>
     <?php endforeach; ?>

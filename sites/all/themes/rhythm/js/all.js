@@ -49,6 +49,7 @@
         init_map();
         init_wow();
         init_masonry();
+	filterWorkFilter();
     });
     
     $(window).resize(function(){
@@ -962,14 +963,6 @@ function initPageSliders(){
 
 // Projects filtering
 var fselector = 0;
-var varSelector = getQueryVariable("selector");
-
-if ((typeof(varSelector) !== 'undefined') ) { 
-    fselector = varSelector;
-    $(".filter").removeClass("active");
-    // $('.filter[data-filter="'+itemSelector+'"]').addClass("active");
-}
-
 
 var work_grid = $("#work-grid, #isotope");
 
@@ -1002,9 +995,26 @@ function initWorkFilter(){
                 filter: fselector
             });
             return false;
-        });
         
+        });
     })(jQuery);
+}
+
+// filter by custom selector
+var varSelector = getQueryVariable("selector");
+function filterWorkFilter(){
+
+    (function($){
+
+     "use strict";
+
+     if ((typeof(varSelector) !== 'undefined') ) { 
+	    setTimeout(function(){$('.filter[data-filter="'+varSelector+'"]').click()},500);
+
+	}
+
+    })(jQuery);
+
 }
 
 
