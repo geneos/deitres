@@ -1,0 +1,14 @@
+name = Viewport
+description = "Allows to add viewport custom settings for selected pages."
+package = User interface
+core = 7.x
+configure = "admin/config/user-interface/viewport"
+
+files[] = viewport.test
+
+; Information added by Drupal.org packaging script on 2016-07-21
+version = "7.x-1.4"
+core = "7.x"
+project = "viewport"
+datestamp = "1469140445"
+
